@@ -227,3 +227,12 @@ cp dotfiles/tmux.conf.local ~/.tmux.conf
 cp dotfiles/gitconfig.local ~/.gitconfig
 cp dotfiles/gitignore.local ~/.gitignore
 cp dotfiles/gitmessage.local ~/.gitmessage
+
+brew install tidy-html5
+npm install -g csslint
+npm install -g eslint
+npm install -g eslint-plugin-react
+npm install -g js-yaml
+gem install puppet-lint
+eslint --init
+
